@@ -40,10 +40,10 @@
   <Loggers>
     <Root level="info" additivity="false">
       <AppenderRef ref="pinotLog"/>
-      <AppenderRef ref="console"/>
+      <AppenderRef ref="console" level="off"/>
     </Root>
     <Logger name="org.apache.pinot.tools.admin" level="info" additivity="false">
-      <AppenderRef ref="console"/>
+      <AppenderRef ref="console" level="off"/>
     </Logger>
     <AsyncLogger name="org.reflections" level="error" additivity="false"/>
   </Loggers>
