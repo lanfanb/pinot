@@ -72,7 +72,7 @@ public class InstancePlanMakerImplV2 implements PlanMaker {
   public static final String MAX_INITIAL_RESULT_HOLDER_CAPACITY_KEY = "max.init.group.holder.capacity";
   public static final int DEFAULT_MAX_INITIAL_RESULT_HOLDER_CAPACITY = 10_000;
   public static final String NUM_GROUPS_LIMIT_KEY = "num.groups.limit";
-  public static final int DEFAULT_NUM_GROUPS_LIMIT = 100_000;
+  public static final int DEFAULT_NUM_GROUPS_LIMIT = 10_000_000;
 
   // Instance config key for minimum segment-level group trim size
   // Set as pinot.server.query.executor.min.segment.group.trim.size
